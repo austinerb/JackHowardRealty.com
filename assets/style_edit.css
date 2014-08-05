@@ -1,0 +1,23 @@
+table, th, td, tr {
+	border: 1px solid #555588;
+	border-collapse: collapse;
+}
+
+th {
+	background-color: #8888DD;
+	color: white;
+}
+
+td, tr {
+	color: #222266;
+}
+
+.tr1 {
+	background-color: #DDDDFF;
+}
+
+.tr2 {
+	background-color: white;
+}
+
+

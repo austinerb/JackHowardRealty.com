@@ -1,0 +1,56 @@
+#address {
+	text-align: center;
+	text-transform: capitalize;
+	margin: 5px;
+}
+
+#price, #priceNV {
+	text-align: center;
+	font-size: 1.25em;
+	margin-top: 0;
+}
+
+#priceNV {
+	color: red;
+}
+
+#col1, #col2 {
+	width: 50%;
+	height: 324px;
+	margin: 0 auto;
+	float: left;
+	padding-top: 12px;
+}
+
+#content img, iframe {
+	width: 400px;
+	height: 300px;
+	padding: 5px;
+	border: 1px solid #DED7D3;
+	display: block;
+	margin: 0 auto;
+}
+
+li {
+	margin-top: 10px;
+	font-size: 1.05em;
+}
+
+.infoCol {
+	width: 33%;
+	float: left;
+}
+
+#contact {
+	text-align: center;
+	margin: 0;
+}
+
+#contact h2 {
+	margin-bottom: 5px;
+}
+
+#contact h1 {
+	margin: 0;
+	color: #0E66BF;
+}

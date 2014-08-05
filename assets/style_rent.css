@@ -1,0 +1,77 @@
+.item {
+	height: 250px;
+	width: 100%;
+	display: block;
+	padding: 20px 10px 20px 10px;
+}
+
+.item img {
+	height: 240px;
+	width: 320px;
+	float: left;
+	border: 1px solid #DED7D3;
+	padding: 5px;
+}
+
+.item #info {
+	text-align: center;
+	width: 510px;
+	float: left;
+	padding-top: 5px;
+	color: #313233;
+	font-size: 1.2em;
+	margin: 0 auto;
+}
+
+.item #info #address {
+	text-transform: capitalize;
+	margin-top: 0;
+}
+
+.item #info #price {
+	color: #008836;
+}
+
+.item #info #beds, .item #info #baths {
+	color: #0E66BF;
+}
+
+#content h1 {
+	margin-top: 0px;
+	text-align: center;
+	font-size: 2.5em;
+}
+
+#selector {
+	margin: auto;
+	width: 399px;
+	height: 43.5px;
+	border-left: 1px solid #313233;
+}
+
+#selector  a {
+	text-decoration: none;
+}
+
+#selector .button, #selector .buttonSelected {
+	background-color: #DED7D3;
+	color: #313233;
+	width: 7em;	
+	text-align: center;
+	padding: 10px 10px 15px 10px;
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+	float: left;
+	border-right: 1px solid #313233;
+}
+
+#selector .button:hover, #selector .buttonSelected:hover {
+	background-color: #897C74;
+	color: #ECECEC;
+}
+
+#selector .buttonSelected {
+	background-color: #AC9B91;
+	color: white;
+}

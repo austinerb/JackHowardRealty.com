@@ -1,0 +1,26 @@
+#content h1 {
+	font-size: 3.5em;
+	margin: 10px 0 10px 0;
+}
+
+#content #col1, #content #col2 {
+	width: 50%;
+	float: left;
+}
+
+#content #imageLeft, #content #imageRight {
+	width: 330px;
+	height: 250px;
+	margin: 0 auto;
+}
+
+#content #imageLeft img, #content #imageRight img {
+	width: 320px;
+	height: 240px;
+	border: 1px solid #DED7D3;
+	padding: 5px;
+}
+
+hr {
+	width: 60%;
+}

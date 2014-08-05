@@ -1,0 +1,182 @@
+html {
+	height: 100%;
+	width: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+@font-face {
+	font-family: forum;
+	src: url(Forum-Regular.otf);
+}
+
+@font-face {
+	font-family: quicksand;
+	src: url(Quicksand-Regular.otf);
+}
+
+body {
+	background-color: white;
+	font-family: quicksand, sans-serif;
+	color: #313233;
+	font-size: 100%;
+	width: 100%;
+	min-height: 100%;
+	position: relative;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: forum, serif;
+}
+
+p {
+	font-size: 1.1em;
+}
+
+#header {
+	background-color: #313233;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#header #headerTop {
+	width: 977px;
+	padding: 20px 0 20px 0;
+	margin: auto;
+}
+
+#header #headerTop #logoBG {
+	width: 250px;
+	height: 135px;
+	padding: 10px 10px 10px 10px;
+	background-color: #DED7D3;
+	margin: 0 auto;
+	position: relative;
+	display: block;
+}
+
+#navBG {
+	width: 100%;
+	height: 45px;
+	background-color: #DED7D3;	
+	position: relative;
+}
+
+#nav {
+	width: 977px;
+	margin: 0 auto;
+	height: 45px;
+}
+
+#nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.25em;
+}
+
+.navLink:link, .navLink:visited {
+	text-align: center;
+	width: 243px;
+	float: left;
+	color: black;
+	padding: 8px 0 13px 0;
+	background-color: #DED7D3;
+	border-right: 1px solid #313233;
+}
+
+#nav #home {
+	border-left: 1px solid #313233;
+}
+
+.navLinkActive:link, .navLinkActive:visited {
+	background-color: #AC9B91;
+	color: white;	
+	text-align: center;
+	width: 243px;
+	float: left;
+	padding: 8px 0 13px 0;
+	border-right: 1px solid #313233;
+}
+
+.navLink:hover, .navLink:active, .navLinkActive:hover, .navLinkActive:active {
+	background-color: #897C74;
+	color: white;
+}
+
+.container {
+	min-height: 100%;
+	width: 975px;
+	margin: 0 auto; /* centers it horizontally */
+	padding: 0 0 2em 0;
+	border-left: 1px dotted #313233;
+	border-right: 1px dotted #313233;
+}
+
+#content {
+	margin-top: 0;
+	padding: 30px 60px 60px 60px;
+}
+
+#content h2 {
+}
+
+#footer {
+	text-align: center;
+	padding: .3em 0 .7em 0;
+	width: 100%;
+	height: 1em;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #DED7D3;
+}
+
+.full {
+	width: 100%;
+}
+
+.clear {
+	margin: 0;
+	clear: both;
+}
+
+.highlight {
+	color: #994444;
+}
+
+.shadow {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 2;
+	background-color: black;
+	opacity: .3;
+	width: 100%;
+	height: 5px;
+	margin: 0;
+}
+
+.button {
+	display: block;	
+	margin: auto;
+	width: 7em;	
+	text-align: center;
+	padding: 10px 10px 15px 10px;
+	background-color: #933;
+	position: relative;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+
+.button:hover {
+	background-color: #7A2828;
+	color: #ECECEC;
+}
+
+hr {
+	background-color: #AC9B91;
+	border: none;
+	height: 1px;
+}
