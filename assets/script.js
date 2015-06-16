@@ -15,8 +15,9 @@ document.getElementById("header").innerHTML = "\
 		</div> \
 	</div>";
 
-document.getElementById("footer").innerHTML = "Website Design by <a href='http://www.austinerb.com' target='_blank' style='color:#313233;'>Austin Erb</a>  \
-			<div class='shadow'></div>";
+document.getElementById("footer").innerHTML = "\
+	&copy; 2014 &ndash; 2015 Howard Realty &bull; Website Design by <a href='http://www.austinerb.com'>Austin Erb</a> \
+	<div class='shadow'></div>";
 
 function setHomeActive() {
 	document.getElementById("home").className = 'navLinkActive';

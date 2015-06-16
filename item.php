@@ -2,8 +2,8 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="http://www.jackhowardrealty.com/assets/style_main.css" />
-		<link rel="stylesheet" type="text/css" href="http://www.jackhowardrealty.com/assets/style_item.css" />
+		<link rel="stylesheet" type="text/css" href="assets/style_main.css" />
+		<link rel="stylesheet" type="text/css" href="assets/style_item.css" />
 		<title>Howard Realty - Rental</title>
 	</head>
 	<body>
@@ -130,7 +130,7 @@
 
 		<div id="footer"></div>		
 
-		<script src="http://www.jackhowardrealty.com/assets/script.js"></script>
+		<script src="assets/script.js"></script>
 		<script>setRentActive();</script>	
 	</body>
 </html>
